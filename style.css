@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: #DAE0E6;
+}
+
+.nav {
+  padding: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reddit__header {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+ 
+.user__input, .search__button {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #e9ebec;
+}
+
+.user__input {
+  text-align: center;
+}
+
+.search__button:hover {
+  background: #FF5700;
+  color: #fff;
+  cursor: pointer;
+}
+
+.logo {
+  color: #000;
+  font-size: 40px;
+}
+
+span {
+  color: #FF5700;
+}
+
+.posts__container {
+ margin-top: 70px;
+}
+
+.post_list {
+  list-style: none;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post {
+  border: 1px solid #000;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+
+.post p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 200px;
+  height: 200px;
+}
