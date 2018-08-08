@@ -25,6 +25,14 @@ body {
   text-transform: uppercase;
   margin-bottom: 40px;
 }
+
+.search {
+  position: relative;
+  width: 30%;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: space-between; */
+}
  
 .user__input, .search__button {
   padding: 15px;
@@ -33,8 +41,18 @@ body {
   border: 1px solid #e9ebec;
 }
 
+.search__icon {
+  position: absolute;
+  top: 17px;
+  right: 320px;
+  font-size: 20px;
+  color: #a5a5a5;
+  
+}
+
 .user__input {
   text-align: center;
+  margin-left: 10px;
 }
 
 .search__button:hover {

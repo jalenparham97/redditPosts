@@ -11,6 +11,7 @@ $(document).ready(() => {
         $(".post_list").append(`
           <li class="post">
             <p>${data.data.children[i].data.title}</p>
+            <p>${data.data.children[i].data.author}</p>
             <a href="http://www.reddit.com${data.data.children[i].data.permalink}"><img src="${data.data.children[i].data.thumbnail}"></a>
           </li>
         `);  
@@ -19,4 +20,3 @@ $(document).ready(() => {
     $("input").val("");
   });
 });
-//  <p>${data.data.children[i].data.author}</p>
